@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_background"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recycler_item_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/recycler_item_tv_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:text="@string/textview2" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_item_btn_edit"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:text="@string/edit"
+        android:textSize="15sp"/>
+</LinearLayout>
